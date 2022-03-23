@@ -3,3 +3,47 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.contain {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+span {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 0;
+    color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
